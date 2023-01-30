@@ -1,7 +1,7 @@
 //ứng dụng closure để che đi nội dung
 function botRun(){
     let contents=[]
-    fetch( "http://localhost:3000/contentsRobot")
+    fetch( "https://my-json-server.typicode.com/vuakechuyen/mhl/contentsRobot")
     .then(function(dat){
         return dat.json()
     })
