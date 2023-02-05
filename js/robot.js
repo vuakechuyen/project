@@ -2,7 +2,7 @@
 function botRun(){
     let contents=[]
     let contentAll=[]
-    fetch( "http://localhost:3000/contentsRobot")
+    fetch( "https://my-json-server.typicode.com/vuakechuyen/project/contentsRobot")
     .then(function(dat){
         return dat.json()
     })
