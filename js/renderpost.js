@@ -2,7 +2,7 @@
 var postContainers=document.querySelectorAll(".post_container")
 var x=postContainers[0].querySelector(".details_post");
 //render posts
-fetch("https://my-json-server.typicode.com/vuakechuyen/mhl/posts")
+fetch("https://my-json-server.typicode.com/vuakechuyen/project/posts")
 .then(function(x1){
     return x1.json();
 })
