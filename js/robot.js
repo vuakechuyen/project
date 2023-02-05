@@ -11,12 +11,8 @@ function botRun(){
         content.forEach(function(x){
             contentAll=contentAll.concat(x)
         })
-        console.log(contentAll)
         
     })
-    /* contents.forEach(function(x){
-        contentAll=contentAll.concat(x)
-    }) */
     function botShow(){
     let index=Math.floor(Math.random()*contentAll.length)
     showElement.innerText=contentAll[index]
