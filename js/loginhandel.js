@@ -34,7 +34,7 @@ var registerHandle=function(selector){
         });
         
         if (check==true){
-            postData("https://my-json-server.typicode.com/vuakechuyen/project/comments",{
+            postData("https://my-json-server.typicode.com/vuakechuyen/t1/comments",{
                 userName:document.querySelector("[name=username]").value,
                 email:document.querySelector("[name=email").value,
                 password:document.querySelector("[name=password").value
@@ -60,7 +60,7 @@ var loginHandle=function(selector){
         });
         
         if (check==true){
-            fetch("https://my-json-server.typicode.com/vuakechuyen/project/comments")
+            fetch("https://my-json-server.typicode.com/vuakechuyen/t1/comments")
                 .then(function(dat){
                     return dat.json();
                 })
